@@ -17,8 +17,8 @@ const App = () => {
         </div> 
         <div className="hidden md:flex space-x-4">
           <a href="#home" className="hover:border-blue-500 rounded-md px-3 py-2 border-black border-2">Home</a>
-          <a href="#aboutUs" className="hover:border-blue-500 rounded-md px-3 py-2 border-black border-2">Team</a>
-          <a href="#contact" className="hover:border-blue-500 rounded-md px-3 py-2 border-black border-2">Contact</a>
+          <a href="#aboutUs" className="hover:border-blue-500 rounded-md px-3 py-2 border-black border-2">About us</a>
+          <a href="#contact" className="hover:border-blue-500 rounded-md px-3 py-2 border-black border-2">Contact us</a>
           <a href="#careers" className="hover:border-blue-500 rounded-md px-3 py-2 border-black border-2">Careers</a>
         </div>
         <div className="md:hidden">
@@ -32,8 +32,8 @@ const App = () => {
       {isOpen && (
         <div className="md:hidden bg-white-500">
           <a href="#home" className="block px-4 py-2 hover:underline">Home</a>
-          <a href="#aboutUs" className="block px-4 py-2 hover:underline">About Us</a>
-          <a href="#contact" className="block px-4 py-2 hover:underline">Contact</a>
+          <a href="#aboutUs" className="block px-4 py-2 hover:underline">About us</a>
+          <a href="#contact" className="block px-4 py-2 hover:underline">Contact us</a>
           <a href="#careers" className="block px-4 py-2 hover:underline">Careers</a>
         </div>
       )}
